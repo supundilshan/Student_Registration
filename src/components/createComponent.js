@@ -53,8 +53,9 @@ class createComponent extends Component {
         };
 
         // console.log(obj);
+        // send data to backend
         axios.post('http://localhost:4000/student/add', obj).then(res=>console.log(res.data));
-
+        
         this.setState({
             studentName:'',
             StudentNIC :'',
