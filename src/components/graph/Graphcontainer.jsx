@@ -12,16 +12,19 @@ class Graphcontainer extends Component {
 
     onclickHndler = (e) =>{
         this.setState({
-            subject:e.target.value
-        })
+            subject:e.target.value,
+        },console.log(this.state.subject))
     }
     
     render() {
         return (
-            <div className='grphcontainer'>
-                <button className='scibtn' onClick={this.onclickHndler} value="science" style={{}}> Science </button>
-                <button className='matbtn' onClick={this.onclickHndler} value="maths"> Mathematics </button> 
-                <AllGraphs subject = {this.state.subject}/>
+            <div className='main-container'>
+                <button className = {this.state.subject == "science"? "science":"scibtn" } onClick={this.onclickHndler} value="science"> Science </button>
+                <button className = {this.state.subject == "maths"? "maths":"matbtn" } onClick={this.onclickHndler} value="maths"> Mathematics </button> 
+                
+                <div className="graph-comment-container">
+                    <AllGraphs subject = {this.state.subject}/>
+                </div>
             </div>
         );    
     }

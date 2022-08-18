@@ -3,17 +3,39 @@
     border-radius: 10px 0px 0px 0px;
     /* margin: 2px; */
     width: 120px;
+    background-color: hsl(111, 100%, 50%);
+}
+
+.science{
+    border: 1px solid black;
+    border-radius: 10px 0px 0px 0px;
+    /* margin: 2px; */
+    width: 120px;
+    background-color: aqua;
 }
 
 .matbtn{
-    border: 1px solid black;
+    border: 1px solid black ;
     border-radius: 0px 0px 10px 0px;
     /* margin: 2px; */
     width: 120px;
+    background-color: hsl(111, 100%, 50%);
 }
 
-.grphcontainer{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+.maths{
+    border: 1px solid black ;
+    border-radius: 0px 0px 10px 0px;
+    /* margin: 2px; */
+    width: 120px;
+    background-color: aqua;
+}
+.main-container{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.graph-comment-container{
+    border: 2px solid black;
+    height: 100vh;
 }

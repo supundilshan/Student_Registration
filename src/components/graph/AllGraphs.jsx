@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './AllGraphsStyles.css';
 
 class AllGraphs extends Component {
     constructor(props) {
