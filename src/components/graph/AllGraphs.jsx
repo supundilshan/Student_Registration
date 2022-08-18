@@ -10,6 +10,7 @@ class AllGraphs extends Component {
     render() {
         return (
             <div>
+                <h3 className='topic'>{`A complete summary of the student's ${this.props.subject} class performance`}</h3>
                 <div className="graphContainer">
                     <h2>{`graphs ${this.props.subject}`}</h2>
                 </div>

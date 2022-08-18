@@ -20,8 +20,8 @@ class Graphcontainer extends Component {
         return (
             <div className='main-container'>
                 <button className = {this.state.subject == "science"? "science":"scibtn" } onClick={this.onclickHndler} value="science"> Science </button>
-                <button className = {this.state.subject == "maths"? "maths":"matbtn" } onClick={this.onclickHndler} value="maths"> Mathematics </button> 
-                
+                <button className = {this.state.subject == "mathematics"? "maths":"matbtn" } onClick={this.onclickHndler} value="mathematics"> Mathematics </button> 
+
                 <div className="graph-comment-container">
                     <AllGraphs subject = {this.state.subject}/>
                 </div>
