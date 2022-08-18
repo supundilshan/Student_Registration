@@ -1,0 +1,35 @@
+.signin-container{
+    height: 50vh;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 30vh;
+    margin-right: 8%;
+    display: flex;
+}
+
+.signin-title{
+    background-color: rgb(86, 234, 245);
+    height: 50vh;
+    width: 35%;
+    text-align: center;
+    display: flex;
+}
+
+.title{
+    margin: auto;
+    color: rgb(18, 18, 39);
+}
+
+.signin-form{
+    height: 50vh;
+    width: 65%;
+    border: 3px solid rgb(86, 234, 245);
+    padding: 5%;
+}
+
+.signin-btn{
+    margin-top: 2vh;
+    color: rgb(18, 18, 39);
+    background-color: rgb(86, 234, 245);
+    width: 100%;
+}

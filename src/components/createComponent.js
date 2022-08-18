@@ -5,12 +5,6 @@ import axios from 'axios';
 class createComponent extends Component {
     constructor(props) {
         super(props);
-        this.onChangestudentName = this.onChangestudentName.bind(this);
-        this.onChangeStudentNIC = this.onChangeStudentNIC.bind(this);
-        this.onChangeStudentExamType = this.onChangeStudentExamType.bind(this);
-        this.onChangestudentExamYear = this.onChangestudentExamYear.bind(this);
-        this.onSubmit = this.onSubmit.bind(this)
-
         this.state={
             studentName:'',
             StudentNIC :'',
@@ -19,31 +13,31 @@ class createComponent extends Component {
         }
     }
 
-    onChangestudentName(e){
+    onChangestudentName = (e) =>{
         this.setState({
             studentName : e.target.value
         });
         // console.log(e.target.value);
     }
-    onChangeStudentNIC(e){
+    onChangeStudentNIC = (e) => {
         this.setState({
             StudentNIC : e.target.value
         });
         // console.log(e.target.value);
     }
-    onChangeStudentExamType(e){
+    onChangeStudentExamType = (e) =>{
         this.setState({
             StudentExamType : e.target.value
         });
         // console.log(e.target.value);
     }
-    onChangestudentExamYear(e){
+    onChangestudentExamYear = (e) =>{
         this.setState({
             studentExamYear : e.target.value
         });
         // console.log(e.target.value);
     }
-    onSubmit(e){
+    onSubmit = (e) =>{
         e.preventDefault();
         const obj = {
             studentName: this.state.studentName,

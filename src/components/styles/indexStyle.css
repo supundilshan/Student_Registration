@@ -1,0 +1,29 @@
+.poster-container{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    background-image: url('../images/Banar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    /* background-color: rgb(23,31,37); */
+}
+
+.poster-introduction{
+    color: aliceblue;
+    margin: auto;
+}
+
+.login-form-container{
+    margin-top: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black;
+}
+
+.login{
+    border: 2px solid black;
+    /* height: 50vh; */
+}
+

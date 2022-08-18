@@ -2,13 +2,19 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="container">
+    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to={"/"} className="navbar-brand"> my CRUD App</Link>
         <div className="navbar-collapse" id="navbarSupportContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                     <Link to="/" className="nav-link">Home</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/student" className="nav-link">Student</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="/teacher" className="nav-link">Teacher</Link>
                 </li>
                 <li className="nav-item">
                     <Link to="/create" className="nav-link">Create</Link>

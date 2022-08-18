@@ -4,16 +4,13 @@ import axios from 'axios';
 import {Link} from 'react-router-dom';
 // import TableRow from './TableRow';
 
-class indexComponent extends Component {
+class stuentdetailComponent extends Component {
+    
     constructor(props) {
         super(props);
         this.state = {student:[]}
 
     }
-
-    // componentWillMount() {
-
-    // }
 
     componentDidMount() {
         axios.get('http://localhost:4000/student')
@@ -70,4 +67,4 @@ class indexComponent extends Component {
     }
 }
 
-export default indexComponent;
+export default stuentdetailComponent;

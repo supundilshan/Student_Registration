@@ -1,0 +1,19 @@
+.scibtn{
+    border: 1px solid black;
+    border-radius: 10px 0px 0px 0px;
+    /* margin: 2px; */
+    width: 120px;
+}
+
+.matbtn{
+    border: 1px solid black;
+    border-radius: 0px 0px 10px 0px;
+    /* margin: 2px; */
+    width: 120px;
+}
+
+.grphcontainer{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
